@@ -1,13 +1,10 @@
-package exercises;
+package konstruktory;
 
 public class Radio {
 
-
     private String nazwa;
 
-    // Tu nie ma konstruktora więc domyślny będzie dodany
-
-    public String getNazwa(){
-        return nazwa;
+    public Radio(Radio radioNazwa){
+ //        nazwa = radioNazwa;
     }
 }
